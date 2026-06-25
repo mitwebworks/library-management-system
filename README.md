@@ -1,3 +1,3 @@
 # library-management-system
 
-    First commit by Ishaq
+    This is a library management system api backend to manage books and users
