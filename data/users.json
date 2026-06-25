@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Aisha Patel",
+    "email": "aisha.patel@example.com",
+    "role": "member",
+    "borrowedBooks": [2, 5]
+  },
+  {
+    "id": 2,
+    "name": "Daniel Kim",
+    "email": "daniel.kim@example.com",
+    "role": "member",
+    "borrowedBooks": []
+  },
+  {
+    "id": 3,
+    "name": "Sophia Martinez",
+    "email": "sophia.martinez@example.com",
+    "role": "librarian",
+    "borrowedBooks": []
+  },
+  {
+    "id": 4,
+    "name": "Michael Johnson",
+    "email": "michael.johnson@example.com",
+    "role": "member",
+    "borrowedBooks": [1]
+  }
+]

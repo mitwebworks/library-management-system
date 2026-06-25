@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Mathematics 1",
+    "author": "S. Prakashan",
+    "genre": "Education",
+    "publishedYear": 2020,
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic Fiction",
+    "publishedYear": 1925,
+    "available": false
+  },
+  {
+    "id": 3,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genre": "Science",
+    "publishedYear": 1988,
+    "available": true
+  },
+  {
+    "id": 4,
+    "title": "Learning JavaScript",
+    "author": "Ethan Brown",
+    "genre": "Programming",
+    "publishedYear": 2016,
+    "available": true
+  },
+  {
+    "id": 5,
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "genre": "Philosophy",
+    "publishedYear": -500,
+    "available": false
+  }
+]
