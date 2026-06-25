@@ -34,3 +34,19 @@ GET: Get the list of all issued books
 
 ## /books/issues/withFine
 GET: Get all issued books with their fines
+
+### Subscription types
+    >> Basic (3 Months)
+    >> Standard (6 Months)
+    >> Premium (12 Months)
+
+>> If a user missed the renewal date, then the user has to pay INR 100
+>> If a user missed subscription, then the user has to pay INR 100
+>> If a user missed both renewal date & subscrition, then the user has to pay INR 300
+
+## Commands
+npm init
+npm i express
+npm i nodemon --save-dev
+
+npm run dev
