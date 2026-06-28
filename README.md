@@ -55,4 +55,11 @@ GET: Get all issued books with their fines
     npm i express
     npm i nodemon --save-dev
 
-    npm run dev
+    npm run dev --> To start the app
+
+    To restore node_modules and package-lock.json --> npm i / npm install
+
+    npm i mongoose
+    npm i mongodb
+
+    npm i dotenv

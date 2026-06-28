@@ -1,6 +1,14 @@
 const express = require("express");
 const app = express();
 
+const dotenv = require("dotenv");
+
+const dbConnection = require('./dbConnection')
+
+dotenv.config();
+
+dbConnection();
+
 // importing routes
 const usersRouter = require("./routes/users");
 // const booksRouter = require('./routes/books')

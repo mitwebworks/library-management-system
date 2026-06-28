@@ -10,7 +10,7 @@ const router = express.Router();
  * Access: Public
  * Parameters: None
  */
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
   res.status(200).json({
     success: true,
     data: users,
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
  * Access: Public
  * Parameters: id
  */
-app.get("/:id", (req, res) => {
+router.get("/:id", (req, res) => {
   const { id } = req.params;
   const user = users.find((each) => each.id === id);
 
@@ -48,7 +48,7 @@ app.get("/:id", (req, res) => {
  * Access: Public
  * Parameters: None
  */
-app.post("/", (req, res) => {
+router.post("/", (req, res) => {
   const { id, name, email, role, borrowedBooks } = req.body;
 
   if (!id || !name || !role) {
@@ -87,7 +87,7 @@ app.post("/", (req, res) => {
  * Access: Public
  * Parameters: id
  */
-app.put("/:id", (req, res) => {
+router.put("/:id", (req, res) => {
   const { id } = req.params;
   const { data } = req.body;
 
@@ -120,7 +120,7 @@ app.put("/:id", (req, res) => {
  * Access: Public
  * Parameters: id
  */
-app.delete("/:id", (req, res) => {
+router.delete("/:id", (req, res) => {
   const { id } = req.params;
   const user = user.find((each) => each.id === id);
 
