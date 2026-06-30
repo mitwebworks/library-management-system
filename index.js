@@ -3,15 +3,12 @@ const app = express();
 
 const dotenv = require("dotenv");
 
-const dbConnection = require('./dbConnection')
+const dbConnection = require("./dbConnection");
+const { usersRouter, booksRouter } = require("./routes"); // Imported Routes
 
 dotenv.config();
 
 dbConnection();
-
-// importing routes
-const usersRouter = require("./routes/users");
-// const booksRouter = require('./routes/books')
 
 app.use(express.json());
 
@@ -24,6 +21,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/users", usersRouter);
+app.use("/books", booksRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port} `);

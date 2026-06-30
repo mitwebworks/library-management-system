@@ -63,3 +63,8 @@ GET: Get all issued books with their fines
     npm i mongodb
 
     npm i dotenv
+
+# MVC Architecture
+    >> M: Model (structure of mogodb)
+    >> V: View (fronted)
+    >> C: Controller (brain / logic of a route)
